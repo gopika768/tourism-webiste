@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+ .nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  margin-top: 0.15px;
+}
+
+.nav-links a {
+  color: rgb(241, 241, 241);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 200px;
+ 
+  border-radius: 5px;
+  text-decoration: none;
+  opacity: 100%;
+  
+}
+a {
+  color: rgb(255, 255, 255); 
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+
+a:hover {
+ 
+  background-color: rgb(224, 7, 7);
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+p {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.con
+{
+  color: white;
+}
+.box
+{
+
+  height: 50px;
+  margin-top: 0.02px;
+}
+carousel-item, .carousel-item>img{
+  height: 150px;
+  width: 150PX;
+}
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; 
+}
